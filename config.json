@@ -1,9 +1,9 @@
 {
-  "name": "SNMP Server",
+  "name": "Custom SNMP Server",
   "version": "1.0.0",
   "slug": "snmpd",
   "description": "SNMP v2c server for monitoring",
-  "url": "https://github.com/darthsebulba04/hassio-snmpd",
+  "url": "https://github.com/samarti04/custom-snmpd",
   "arch": ["armhf", "armv7", "amd64", "i386"],
   "startup": "services",
   "boot": "auto",
