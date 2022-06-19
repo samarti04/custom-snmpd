@@ -3,6 +3,7 @@
 CONFIG="/etc/snmp/snmpd.conf"
 
 {
+	echo "agentaddress  udp:161,udp6:[::1]:161"
 	echo "com2sec readonly default $(bashio::config 'community')"
 	echo "syslocation $(bashio::config 'location')"
 	echo "syscontact $(bashio::config 'name') <$(bashio::config 'email')>"
